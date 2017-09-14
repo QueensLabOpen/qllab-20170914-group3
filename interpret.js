@@ -24,7 +24,7 @@ function interpret(text) {
 		if (inArray(char, whitespace)) {
 			//Whitespace found
 			if (buffer in commands) {
-				execute[execute.length] = buffer;
+				execute[execute.length] = commands[buffer];
 				buffer = "";
 			} else {
 				throw("Invalid command: " + buffer);
@@ -33,6 +33,8 @@ function interpret(text) {
 			buffer += char;
 		}
 	}
+
+	console.log("EXECUTE ARRAY", execute);
 
 	return execute;
 }

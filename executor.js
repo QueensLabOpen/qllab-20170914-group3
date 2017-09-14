@@ -5,6 +5,7 @@ function executeCommandsOnSprite(sprite, commands) {
 		console.log(sprite, command);
 
 		if (command == "forward") {
+			console.log(command);
 			sprite.body.velocity.y = 1000;
 		} else if(command == "backwards") {
 			sprite.body.velocity.y = -1000;
