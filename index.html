@@ -17,7 +17,7 @@
 <div id="sidebar">
 	<div id="interface">
 		<textarea v-model="command" cols="40" rows="20" v-on:keyup.enter="addCommand" placeholder="Add your code"></textarea>
-		<button id="runCode">Run</button>
+		<button @click="sendCommand" id="runCode">Run</button>
 	</div>
 </div>
 <script src="interpret.js"></script>
