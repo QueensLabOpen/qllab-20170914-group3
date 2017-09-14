@@ -10,13 +10,14 @@
 	<title>demo</title>
 </head>
 <body>
-<div id="logo">Put the cool logo here</div>
+<div id="logo"><img src="jawsript_logo_black.png"/></div>
 
 <div id="phaser-example"></div>
 
 <div id="sidebar">
 	<div id="interface">
 		<textarea v-model="command" cols="40" rows="20" v-on:keyup.enter="addCommand" placeholder="Add your code"></textarea>
+		<button id="runCode">Run</button>
 	</div>
 </div>
 <script src="interpret.js"></script>

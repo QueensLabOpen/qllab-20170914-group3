@@ -51,7 +51,7 @@ function create() {
     game.physics.arcade.enable(sprite);
 
     //  This adjusts the collision body size.
-    sprite.body.setSize(32, 32, 0, 0);
+    sprite.body.setSize(64, 64, 0, 0);
 
     //  We'll set a lower max angular velocity here to keep it from going totally nuts
     sprite.body.maxAngular = 500;
