@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
-	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 	<script src="https://github.com/photonstorm/phaser-ce/releases/download/v2.8.7/phaser.min.js"></script>
 	<title>demo</title>
 </head>
@@ -16,7 +16,7 @@
 
 <div id="sidebar">
 	<div id="interface">
-		<textarea v-model="command" cols="40" rows="20" v-on:keyup.enter="addCommand"></textarea>
+		<textarea v-model="command" cols="40" rows="20" v-on:keyup.enter="addCommand" placeholder="Add your code"></textarea>
 	</div>
 </div>
 <script src="game.js"></script>
