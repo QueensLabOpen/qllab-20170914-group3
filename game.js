@@ -95,3 +95,10 @@ function render() {
     game.debug.body(sprite);
 
 }
+window.sprite = sprite;
+function test() {
+	var code = "f f f f l f b b b r r";
+	var commands = interpret(code);
+	executeCommandsOnSprite(window.sprite, commands);
+}
+setTimeout(test, 5000);
