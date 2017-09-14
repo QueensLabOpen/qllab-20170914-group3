@@ -1,0 +1,24 @@
+textarea {
+    font-family: 'PT Mono', sans-serif;
+    background: #000;
+    color: #33cc33;
+    border: none;
+    resize: none;
+    outline: none;
+}
+#logo {
+    width: 800px;
+    height: 100px;
+    background-color: blue;
+}
+#phaser-example {
+    float:left;
+
+    width: 800px;
+    height: 600px;
+}
+#sidebar {
+    min-width: 300px;
+    float:left;
+    background-color: red;
+}
